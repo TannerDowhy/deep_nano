@@ -12,7 +12,7 @@ Include: yum
     yum -y install python-pip
     yum -y install hdf5-devel
 
-    pip install Cython==0.23.4 numpy h5py==2.5.0 Theano==0.8.0 python-dateutil==2.5.0 scipy scikitlearn
+    pip install Cython==0.23.4 numpy h5py==2.5.0 Theano==0.8.0 python-dateutil==2.5.0 scipy scikit-learn
 
     git clone https://bitbucket.org/vboza/deepnano.git
     echo -e "\n[global]\nfloatX=float32\n" >> ~/.theanorc
