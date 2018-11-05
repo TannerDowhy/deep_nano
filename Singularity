@@ -19,4 +19,4 @@ Include: yum
     echo -e "\n[global]\nfloatX=float32\n" >> ~/.theanorc
     wget http://www.netlib.org/blas/blas-3.8.0.tgz
     tar xzfv /blas-3.8.0.tgz
-    make -C /blas-3.8.0
+    make -C /BLAS-3.8.0
