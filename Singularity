@@ -5,7 +5,7 @@ Include: yum
 
 %environment
 
-    PATH='$PATH:/BLAS-3.8.0'
+    PATH="$PATH:/BLAS-3.8.0"
 
 %post
     yum -y groupinstall "Development Tools"
