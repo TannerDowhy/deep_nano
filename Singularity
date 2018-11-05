@@ -3,6 +3,10 @@ OSVersion: 7
 MirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/
 Include: yum
 
+%environment
+
+    PATH='$PATH:/BLAS-3.8.0'
+
 %post
     yum -y groupinstall "Development Tools"
     yum -y install zlib-devel
